@@ -11,7 +11,7 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "daniel",
-  "license": "ISC",
-  "description": ""
+  "author": "danielhan,ericwu",
+  "license": "Apache License 2.0",
+  "description": "cordova plugin for pda barcode scanner"
 }
