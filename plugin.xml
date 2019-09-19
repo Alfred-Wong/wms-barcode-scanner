@@ -13,8 +13,8 @@
             <uses-permission android:name="android.permission.VIBRATE" />
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <!-- <source-file src="src/android/libs/platform_sdk_v2.4.0810.jar" target-dir="libs" />
-        <source-file src="src/android/libs/android-support-v4.jar" target-dir="libs" /> -->
+        <source-file src="src/android/libs/platform_sdk_v2.4.0810.jar" target-dir="libs" />
+        <!-- <source-file src="src/android/libs/android-support-v4.jar" target-dir="libs" /> -->
         <source-file src="src/android/Barcodescanner.java" target-dir="cn/wishpost/wishwms/wmsbarcode" />
     </platform>
 </plugin>
