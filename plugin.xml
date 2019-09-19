@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plugin id="wms-barcode-scanner" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>wms-barcode-scanner</name>
+    <js-module name="wmsbarcode" src="www/wms-barcode-scanner.js">
+        <clobbers target="cordova.plugins.wmsbarcode" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="wmsbarcode">
+                <param name="android-package" value="cn.wishpost.wishwms.wmsbarcode.Barcodescanner" />
+                <param name="onload" value="true" />
+            </feature>
+            <uses-permission android:name="android.permission.VIBRATE" />
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/libs/platform_sdk_v2.4.0810.jar" target-dir="libs" />
+        <source-file src="src/android/libs/android-support-v4.jar" target-dir="libs" />
+        <source-file src="src/android/Barcodescanner.java" target-dir="cn/wishpost/wishwms/wmsbarcode" />
+    </platform>
+</plugin>

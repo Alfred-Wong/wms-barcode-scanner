@@ -1,0 +1,17 @@
+{
+  "name": "wms-barcode-scanner",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "wms-barcode-scanner",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "daniel",
+  "license": "ISC",
+  "description": ""
+}
